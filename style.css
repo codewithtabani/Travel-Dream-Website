@@ -757,14 +757,15 @@ button {
     margin-top: 100px;
 }
 
-.blog>.container {
+.blog .container {
     padding: 0px 75px;
 }
+
 @media (max-width:450px) {
-    .blog .container{
+    .blog .container {
         padding: 0px 10px;
-}
     }
+}
 
 .blog .blog-img {
     width: 100%;
