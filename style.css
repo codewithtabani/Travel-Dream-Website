@@ -343,7 +343,6 @@ button {
     background: rgba(0, 0, 0, 0.568) url(images//discount.avif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -120px;
     padding: 60px 0px;
     background-blend-mode: darken;
     margin-top: 100px;
@@ -758,9 +757,14 @@ button {
     margin-top: 100px;
 }
 
-.blog>div {
+.blog>.container {
     padding: 0px 75px;
 }
+@media (max-width:450px) {
+    .blog .container{
+        padding: 0px 10px;
+}
+    }
 
 .blog .blog-img {
     width: 100%;
